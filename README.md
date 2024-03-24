@@ -1,5 +1,4 @@
-[![MasterHead](
-)](https://sriram93.ccbp.tech)
+<img src="https://res.cloudinary.com/dhwydorji/image/upload/v1711300544/github-header-image_vkevss.png"/>
 
 <h1 align="center">Hi there, I'm Sriram Karneedi</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
