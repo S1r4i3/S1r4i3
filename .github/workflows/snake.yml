@@ -6,21 +6,16 @@ on:
 
   workflow_dispatch:
 
-  push:
-    branches:
-      - main
-
 permissions:
   contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
 
     steps:
       - name: Generate GitHub contribution snake
-        uses: Platane/snk@v3.5.0
+        uses: Platane/snk@v3
         with:
           github_user_name: S1r4i3
           outputs: |
@@ -28,9 +23,8 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
 
       - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4.2.0
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          build_dir: dist
-          target_branch: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.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 }}
+          personal_token: ${{ secrets.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 }}
+          publish_dir: ./dist
+          publish_branch: output
