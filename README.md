@@ -153,11 +153,16 @@ Building and experimenting with:
 
 ## 🐍 Contribution Snake
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/S1r4i3/S1r4i3/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="https://raw.githubusercontent.com/S1r4i3/S1r4i3/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)"
+            srcset="https://raw.githubusercontent.com/S1r4i3/S1r4i3/output/github-snake.svg">
+    <img alt="GitHub contribution snake"
+         src="https://raw.githubusercontent.com/S1r4i3/S1r4i3/output/github-snake.svg">
+  </picture>
+</p>
 
 ---
 
